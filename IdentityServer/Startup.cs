@@ -42,7 +42,7 @@ namespace IdentityServer4.Example
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Hello World! \r\n\r\n\r\n\tfrom\r\n\tIdentityServer4");
                 });
             });
         }
