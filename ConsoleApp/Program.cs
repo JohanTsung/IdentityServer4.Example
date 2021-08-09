@@ -26,7 +26,7 @@ namespace ConsoleApp
             var request2 = new RestRequest(Method.POST);
             request2.AddHeader("cache-control", "no-cache");
             request2.AddHeader("content-type", "application/x-www-form-urlencoded");
-            request2.AddParameter("application/x-www-form-urlencoded", "grant_type=client_credentials&client_id=oauthClient&client_secret=SuperSecretPassword", ParameterType.RequestBody);
+            request2.AddParameter("application/x-www-form-urlencoded", "grant_type=client_credentials&scope=api1.read&client_id=oauthClient&client_secret=SuperSecretPassword", ParameterType.RequestBody);
             IRestResponse response2 = client2.Execute(request2);
 
             dynamic resp = JObject.Parse(response2.Content);
