@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31521.260
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer4.Example", "IdentityServer\IdentityServer4.Example.csproj", "{6C5032DF-6C9D-4C6C-9B72-056B5251A77C}"
 EndProject
@@ -15,8 +15,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcService", "GrpcService\GrpcService.csproj", "{D74FA789-A06C-4750-B1CD-2B0489693137}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{9F1097F5-4205-47B6-B18E-08B8E008E0C9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{C6F19956-A537-49DD-AABF-99A0B21014A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,10 +38,6 @@ Global
 		{9F1097F5-4205-47B6-B18E-08B8E008E0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F1097F5-4205-47B6-B18E-08B8E008E0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F1097F5-4205-47B6-B18E-08B8E008E0C9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C6F19956-A537-49DD-AABF-99A0B21014A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C6F19956-A537-49DD-AABF-99A0B21014A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C6F19956-A537-49DD-AABF-99A0B21014A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C6F19956-A537-49DD-AABF-99A0B21014A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
